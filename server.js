@@ -30,7 +30,3 @@ mongoose.connect(process.env.MONGO_URI)
         console.log(err);
     });
 
-// listen for requests -> remplacé par mongoose
-// app.listen(process.env.PORT, () => {
-//     console.log('Listening on port', process.env.PORT);
-// });
